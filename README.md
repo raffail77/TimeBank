@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+TimeBank – Service Exchange Marketplace
+TimeBank is a full-stack marketplace that enables users to exchange services using time credits or secure online payments. The platform empowers individuals to monetize their skills, collaborate with others, and build professional reputations within a trusted community.
 
-## Project info
+The Problem
+Many people possess valuable skills but are unable to access professional services due to financial limitations. Traditional freelancing platforms focus solely on monetary transactions, making it difficult for individuals to exchange skills and services in a flexible and community-driven way.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Project Purpose
+TimeBank was developed to create a platform where time and skills become valuable assets. Users can earn credits by providing services, spend credits on services offered by others, or use secure online payments when needed. The goal is to encourage collaboration, increase accessibility to services, and promote a sustainable skill-sharing ecosystem.
 
-## How can I edit this code?
+Features
+User Authentication & Professional Profiles
+Service Marketplace
+Time Credit Economy
+Skill-for-Skill Exchange
+Stripe Payments & Payouts
+Escrow-Based Contracts
+Real-Time Messaging
+Reviews & Reputation System
+Job Portal
+Blog & Help Center
+Admin Dashboard
+Tech Stack
+Frontend
+React.js
+TypeScript
+Tailwind CSS
+Vite
+shadcn/ui
+Backend
+Supabase
+PostgreSQL
+Supabase Edge Functions
+Payments
+Stripe Checkout
+Stripe Connect
+Getting Started
+Clone the repository:
 
-There are several ways of editing your application.
+git clone <repository-url>
+cd timebank
+Install dependencies:
 
-**Use Lovable**
+npm install
+Start the development server:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-```
+Build for production:
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+npm run build
+Architecture
+React Frontend
+      ↓
+Supabase Backend
+      ↓
+PostgreSQL Database
+      ↓
+Stripe Payments
+Author
+Abdul Rafay & Amna Ashiq BS Software Engineering – Lahore Garrison University
