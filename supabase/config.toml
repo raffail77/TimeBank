@@ -1,0 +1,34 @@
+project_id = "gqibxsjcspmzjhrtnqnf"
+
+[functions.chat]
+verify_jwt = false
+
+[functions.transfer-credits]
+verify_jwt = false
+
+[functions.create-checkout-session]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.verify-payment]
+verify_jwt = false
+
+[functions.stripe-connect-onboard]
+verify_jwt = false
+
+[functions.stripe-connect-status]
+verify_jwt = false
+
+[functions.process-payout]
+verify_jwt = false
+
+[functions.contract-stripe-payment]
+verify_jwt = false
+
+[functions.verify-contract-payment]
+verify_jwt = false
+
+[functions.daily-free-credits]
+verify_jwt = false
